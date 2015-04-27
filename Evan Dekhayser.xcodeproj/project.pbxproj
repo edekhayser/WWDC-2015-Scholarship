@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20474F651ADDDC8D00BFB167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F641ADDDC8D00BFB167 /* AppDelegate.swift */; };
+		20474F6A1ADDDC8D00BFB167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20474F681ADDDC8D00BFB167 /* Main.storyboard */; };
+		20474F6F1ADDDC8D00BFB167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20474F6D1ADDDC8D00BFB167 /* LaunchScreen.xib */; };
+		20474F861ADDDCE200BFB167 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F851ADDDCE200BFB167 /* MeViewController.swift */; };
+		20474F881ADDDCEF00BFB167 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F871ADDDCEF00BFB167 /* ProjectsViewController.swift */; };
+		20474F8A1ADDDCF900BFB167 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F891ADDDCF900BFB167 /* TimelineViewController.swift */; };
+		20474F8E1ADDDD1100BFB167 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F8D1ADDDD1100BFB167 /* GameViewController.swift */; };
+		20474F901ADDDD3000BFB167 /* SlideTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F8F1ADDDD3000BFB167 /* SlideTabBarController.swift */; };
+		20474F921ADDDD3C00BFB167 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F911ADDDD3C00BFB167 /* WebViewController.swift */; };
+		20474F941ADDDD5100BFB167 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474F931ADDDD5100BFB167 /* GameScene.swift */; };
+		20474FAA1ADDDFD900BFB167 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474FA31ADDDFD900BFB167 /* TimelineView.swift */; };
+		20474FAC1ADDE02200BFB167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20474FAB1ADDE02200BFB167 /* Images.xcassets */; };
+		20474FBA1ADDF5C800BFB167 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20474FB91ADDF5C800BFB167 /* InterfaceController.swift */; };
+		20474FBC1ADDF5C800BFB167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20474FBB1ADDF5C800BFB167 /* Images.xcassets */; };
+		20474FC01ADDF5C900BFB167 /* Evan Dekhayser WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 20474FBF1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App.app */; };
+		20474FC81ADDF5C900BFB167 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20474FC61ADDF5C900BFB167 /* Interface.storyboard */; };
+		20474FCA1ADDF5C900BFB167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20474FC91ADDF5C900BFB167 /* Images.xcassets */; };
+		20474FCD1ADDF5C900BFB167 /* Evan Dekhayser WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20474FB51ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20A264EC1AE473610039C0D3 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20A264EB1AE473610039C0D3 /* coin.wav */; };
+		20A264F21AE473B90039C0D3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A264F01AE473B90039C0D3 /* spark.png */; };
+		20CF3DFF1AE1F3B50024896D /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20CF3DFD1AE1F3B50024896D /* beep.wav */; };
+		20CF3E171AE2E7270024896D /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20CF3E151AE2E7270024896D /* Particle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20474FC11ADDF5C900BFB167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20474F571ADDDC8D00BFB167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20474FBE1ADDF5C800BFB167;
+			remoteInfo = "Evan Dekhayser WatchKit App";
+		};
+		20474FCB1ADDF5C900BFB167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20474F571ADDDC8D00BFB167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20474FB41ADDF5C800BFB167;
+			remoteInfo = "Evan Dekhayser WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20474FD41ADDF5C900BFB167 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				20474FCD1ADDF5C900BFB167 /* Evan Dekhayser WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20474F5F1ADDDC8D00BFB167 /* Evan Dekhayser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evan Dekhayser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20474F631ADDDC8D00BFB167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20474F641ADDDC8D00BFB167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20474F691ADDDC8D00BFB167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20474F6E1ADDDC8D00BFB167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20474F851ADDDCE200BFB167 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		20474F871ADDDCEF00BFB167 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		20474F891ADDDCF900BFB167 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		20474F8D1ADDDD1100BFB167 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		20474F8F1ADDDD3000BFB167 /* SlideTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTabBarController.swift; sourceTree = "<group>"; };
+		20474F911ADDDD3C00BFB167 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		20474F931ADDDD5100BFB167 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		20474FA31ADDDFD900BFB167 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		20474FAB1ADDE02200BFB167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20474FB51ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Evan Dekhayser WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20474FB81ADDF5C800BFB167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20474FB91ADDF5C800BFB167 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		20474FBB1ADDF5C800BFB167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20474FBF1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evan Dekhayser WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20474FC51ADDF5C900BFB167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20474FC71ADDF5C900BFB167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		20474FC91ADDF5C900BFB167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20A264EB1AE473610039C0D3 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		20A264F01AE473B90039C0D3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		20CF3DFD1AE1F3B50024896D /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		20CF3E151AE2E7270024896D /* Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20474F5C1ADDDC8D00BFB167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20474FB21ADDF5C800BFB167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20474F561ADDDC8D00BFB167 = {
+			isa = PBXGroup;
+			children = (
+				20474F611ADDDC8D00BFB167 /* Evan Dekhayser */,
+				20474FB61ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension */,
+				20474FC31ADDF5C900BFB167 /* Evan Dekhayser WatchKit App */,
+				20474F601ADDDC8D00BFB167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20474F601ADDDC8D00BFB167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20474F5F1ADDDC8D00BFB167 /* Evan Dekhayser.app */,
+				20474FB51ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension.appex */,
+				20474FBF1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20474F611ADDDC8D00BFB167 /* Evan Dekhayser */ = {
+			isa = PBXGroup;
+			children = (
+				20474FAB1ADDE02200BFB167 /* Images.xcassets */,
+				20CF2A8E1AE5DECB00F02001 /* Generic */,
+				20CF3E011AE2018C0024896D /* Storyboard+Xib */,
+				20474F841ADDDCB800BFB167 /* Fantastic Four */,
+				20CF2A8D1AE5DEA300F02001 /* UI Classes */,
+				20CF3E061AE2DFA80024896D /* Game */,
+			);
+			path = "Evan Dekhayser";
+			sourceTree = "<group>";
+		};
+		20474F841ADDDCB800BFB167 /* Fantastic Four */ = {
+			isa = PBXGroup;
+			children = (
+				20474F851ADDDCE200BFB167 /* MeViewController.swift */,
+				20474F871ADDDCEF00BFB167 /* ProjectsViewController.swift */,
+				20474F891ADDDCF900BFB167 /* TimelineViewController.swift */,
+				20474F8D1ADDDD1100BFB167 /* GameViewController.swift */,
+			);
+			path = "Fantastic Four";
+			sourceTree = "<group>";
+		};
+		20474FB61ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				20474FB91ADDF5C800BFB167 /* InterfaceController.swift */,
+				20474FBB1ADDF5C800BFB167 /* Images.xcassets */,
+				20474FB71ADDF5C800BFB167 /* Supporting Files */,
+			);
+			path = "Evan Dekhayser WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		20474FB71ADDF5C800BFB167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20474FB81ADDF5C800BFB167 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20474FC31ADDF5C900BFB167 /* Evan Dekhayser WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				20474FC61ADDF5C900BFB167 /* Interface.storyboard */,
+				20474FC91ADDF5C900BFB167 /* Images.xcassets */,
+				20474FC41ADDF5C900BFB167 /* Supporting Files */,
+			);
+			path = "Evan Dekhayser WatchKit App";
+			sourceTree = "<group>";
+		};
+		20474FC41ADDF5C900BFB167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20474FC51ADDF5C900BFB167 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20CF2A8D1AE5DEA300F02001 /* UI Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20474F8F1ADDDD3000BFB167 /* SlideTabBarController.swift */,
+				20474F911ADDDD3C00BFB167 /* WebViewController.swift */,
+				20474FA31ADDDFD900BFB167 /* TimelineView.swift */,
+			);
+			path = "UI Classes";
+			sourceTree = "<group>";
+		};
+		20CF2A8E1AE5DECB00F02001 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				20474F641ADDDC8D00BFB167 /* AppDelegate.swift */,
+				20474F631ADDDC8D00BFB167 /* Info.plist */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		20CF3E001AE1F3BC0024896D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				20A264EB1AE473610039C0D3 /* coin.wav */,
+				20CF3DFD1AE1F3B50024896D /* beep.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		20CF3E011AE2018C0024896D /* Storyboard+Xib */ = {
+			isa = PBXGroup;
+			children = (
+				20474F681ADDDC8D00BFB167 /* Main.storyboard */,
+				20474F6D1ADDDC8D00BFB167 /* LaunchScreen.xib */,
+			);
+			path = "Storyboard+Xib";
+			sourceTree = "<group>";
+		};
+		20CF3E061AE2DFA80024896D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				20474F931ADDDD5100BFB167 /* GameScene.swift */,
+				20A264F01AE473B90039C0D3 /* spark.png */,
+				20CF3E151AE2E7270024896D /* Particle.sks */,
+				20CF3E001AE1F3BC0024896D /* Sounds */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20474F5E1ADDDC8D00BFB167 /* Evan Dekhayser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20474F7E1ADDDC8D00BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser" */;
+			buildPhases = (
+				20474F5B1ADDDC8D00BFB167 /* Sources */,
+				20474F5C1ADDDC8D00BFB167 /* Frameworks */,
+				20474F5D1ADDDC8D00BFB167 /* Resources */,
+				20474FD41ADDF5C900BFB167 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20474FCC1ADDF5C900BFB167 /* PBXTargetDependency */,
+			);
+			name = "Evan Dekhayser";
+			productName = "Evan Dekhayser";
+			productReference = 20474F5F1ADDDC8D00BFB167 /* Evan Dekhayser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20474FB41ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20474FD11ADDF5C900BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser WatchKit Extension" */;
+			buildPhases = (
+				20474FB11ADDF5C800BFB167 /* Sources */,
+				20474FB21ADDF5C800BFB167 /* Frameworks */,
+				20474FB31ADDF5C800BFB167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20474FC21ADDF5C900BFB167 /* PBXTargetDependency */,
+			);
+			name = "Evan Dekhayser WatchKit Extension";
+			productName = "Evan Dekhayser WatchKit Extension";
+			productReference = 20474FB51ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		20474FBE1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20474FCE1ADDF5C900BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser WatchKit App" */;
+			buildPhases = (
+				20474FBD1ADDF5C800BFB167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evan Dekhayser WatchKit App";
+			productName = "Evan Dekhayser WatchKit App";
+			productReference = 20474FBF1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20474F571ADDDC8D00BFB167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Evan Dekhayser";
+				TargetAttributes = {
+					20474F5E1ADDDC8D00BFB167 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 44SYMBLN5U;
+					};
+					20474FB41ADDF5C800BFB167 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					20474FBE1ADDF5C800BFB167 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 20474F5A1ADDDC8D00BFB167 /* Build configuration list for PBXProject "Evan Dekhayser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20474F561ADDDC8D00BFB167;
+			productRefGroup = 20474F601ADDDC8D00BFB167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20474F5E1ADDDC8D00BFB167 /* Evan Dekhayser */,
+				20474FB41ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension */,
+				20474FBE1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20474F5D1ADDDC8D00BFB167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CF3E171AE2E7270024896D /* Particle.sks in Resources */,
+				20A264EC1AE473610039C0D3 /* coin.wav in Resources */,
+				20474FAC1ADDE02200BFB167 /* Images.xcassets in Resources */,
+				20474F6A1ADDDC8D00BFB167 /* Main.storyboard in Resources */,
+				20A264F21AE473B90039C0D3 /* spark.png in Resources */,
+				20474F6F1ADDDC8D00BFB167 /* LaunchScreen.xib in Resources */,
+				20CF3DFF1AE1F3B50024896D /* beep.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20474FB31ADDF5C800BFB167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20474FC01ADDF5C900BFB167 /* Evan Dekhayser WatchKit App.app in Resources */,
+				20474FBC1ADDF5C800BFB167 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20474FBD1ADDF5C800BFB167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20474FC81ADDF5C900BFB167 /* Interface.storyboard in Resources */,
+				20474FCA1ADDF5C900BFB167 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20474F5B1ADDDC8D00BFB167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20474F8E1ADDDD1100BFB167 /* GameViewController.swift in Sources */,
+				20474F881ADDDCEF00BFB167 /* ProjectsViewController.swift in Sources */,
+				20474F941ADDDD5100BFB167 /* GameScene.swift in Sources */,
+				20474F861ADDDCE200BFB167 /* MeViewController.swift in Sources */,
+				20474F651ADDDC8D00BFB167 /* AppDelegate.swift in Sources */,
+				20474F901ADDDD3000BFB167 /* SlideTabBarController.swift in Sources */,
+				20474F8A1ADDDCF900BFB167 /* TimelineViewController.swift in Sources */,
+				20474F921ADDDD3C00BFB167 /* WebViewController.swift in Sources */,
+				20474FAA1ADDDFD900BFB167 /* TimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20474FB11ADDF5C800BFB167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20474FBA1ADDF5C800BFB167 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20474FC21ADDF5C900BFB167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20474FBE1ADDF5C800BFB167 /* Evan Dekhayser WatchKit App */;
+			targetProxy = 20474FC11ADDF5C900BFB167 /* PBXContainerItemProxy */;
+		};
+		20474FCC1ADDF5C900BFB167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20474FB41ADDF5C800BFB167 /* Evan Dekhayser WatchKit Extension */;
+			targetProxy = 20474FCB1ADDF5C900BFB167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20474F681ADDDC8D00BFB167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20474F691ADDDC8D00BFB167 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		20474F6D1ADDDC8D00BFB167 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20474F6E1ADDDC8D00BFB167 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+		20474FC61ADDF5C900BFB167 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20474FC71ADDF5C900BFB167 /* Base */,
+			);
+			name = Interface.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20474F7C1ADDDC8D00BFB167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20474F7D1ADDDC8D00BFB167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20474F7F1ADDDC8D00BFB167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Evan Dekhayser/Generic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20474F801ADDDC8D00BFB167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Evan Dekhayser/Generic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		20474FCF1ADDF5C900BFB167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Evan_Dekhayser_WatchKit_Extension;
+				INFOPLIST_FILE = "Evan Dekhayser WatchKit App/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		20474FD01ADDF5C900BFB167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Evan_Dekhayser_WatchKit_Extension;
+				INFOPLIST_FILE = "Evan Dekhayser WatchKit App/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		20474FD21ADDF5C900BFB167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Evan Dekhayser WatchKit Extension/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		20474FD31ADDF5C900BFB167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Evan Dekhayser WatchKit Extension/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20474F5A1ADDDC8D00BFB167 /* Build configuration list for PBXProject "Evan Dekhayser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20474F7C1ADDDC8D00BFB167 /* Debug */,
+				20474F7D1ADDDC8D00BFB167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20474F7E1ADDDC8D00BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20474F7F1ADDDC8D00BFB167 /* Debug */,
+				20474F801ADDDC8D00BFB167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20474FCE1ADDF5C900BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20474FCF1ADDF5C900BFB167 /* Debug */,
+				20474FD01ADDF5C900BFB167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20474FD11ADDF5C900BFB167 /* Build configuration list for PBXNativeTarget "Evan Dekhayser WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20474FD21ADDF5C900BFB167 /* Debug */,
+				20474FD31ADDF5C900BFB167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20474F571ADDDC8D00BFB167 /* Project object */;
+}
